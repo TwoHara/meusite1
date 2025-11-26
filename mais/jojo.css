@@ -1,0 +1,44 @@
+body {
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+td {
+    border: 1px solid green;
+}
+
+.pp {
+    border: 1px solid red;
+}
+
+th {
+    border: 1px solid mediumaquamarine;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.compras {
+    width: 50%;
+}
+
+.ro{
+    text-align: right;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.zebra {
+    width: 50%;
+
+}
+
+.zebra tr:nth-child(even) {
+    background-color: maroon;
+}
+
+.zebra tr:nth-child(odd) {
+    background-color: gray;
+}
